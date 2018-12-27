@@ -12,6 +12,8 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+// requires th efiles for all files and components.
+require('style!css!applicationStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
