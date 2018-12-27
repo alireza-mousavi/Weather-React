@@ -12,7 +12,8 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
-// requires th efiles for all files and components.
+// requires the files for all files and components.
+// applicationStyle is loaded into the css loader first and then to the styoe loader.
 require('style!css!applicationStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
