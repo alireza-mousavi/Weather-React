@@ -1,0 +1,12 @@
+$space-large 12.5rem;
+
+/*make a new class by using '.' . page-title is the name of the class.  */
+.page-title {
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+/* selecter, selects all inputs that have an attribute  where type = search */
+input[type=search] {
+    box-shadow: none;
+}

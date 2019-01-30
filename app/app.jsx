@@ -9,7 +9,7 @@ var About = require('About');
 var Examples = require('Examples');
 
 //Load foundations
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
 // requires the files for all files and components.
