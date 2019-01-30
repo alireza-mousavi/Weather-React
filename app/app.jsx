@@ -14,7 +14,8 @@ $(document).foundation();
 
 // requires the files for all files and components.
 // applicationStyle is loaded into the css loader first and then to the styoe loader.
-require('style!css!applicationStyles')
+require('style!css!sass!applicationStyles')
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
